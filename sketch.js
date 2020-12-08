@@ -31,7 +31,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background(255);
   this.ground.display();
   this.paper.display();  
   this.db1.display();
@@ -41,7 +41,7 @@ function draw() {
 }
 
 function keyPressed (){
-  
+
   if( keyCode === UP_ARROW ){
    Matter.Body.applyForce(this.paper.body,this.paper.body.position,{x:1200,y:-1100})
   }

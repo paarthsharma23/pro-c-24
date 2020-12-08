@@ -6,7 +6,7 @@ constructor(x,y){
         'friction':0.5,
         'density':1.2
     }
-this.img = loadImage("crumpled.png");
+this.img = loadImage("crumple.jpg");
 this.radius=70;
 this.body = Bodies.circle(x,y,this.radius,options);
 World.add(world,this.body);
